@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  transition: background-color ease-out 0.5s, color ease-in 0.4s;
+}
